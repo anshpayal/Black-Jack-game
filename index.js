@@ -54,7 +54,7 @@ function renderGame() {
         hasBlackjack = true;
     }
     else {
-        message = "You are out of the grame!";
+        message = "You are out of the game!";
         isAlive = false;
     }
     messageDisplay.textContent=message;
